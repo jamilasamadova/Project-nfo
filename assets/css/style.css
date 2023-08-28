@@ -1,0 +1,365 @@
+/* UMUMI SEHIFE KODLARI */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+/* ************************************ */
+/* TOP HEADER */
+header .top-header {
+    background: #545454;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+header .top-header .container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .top-header ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+header .top-header ul li a {
+    color: #fff;
+}
+
+header .top-header ul.contact-links li a:hover,
+header .top-header ul.contact-links li a i {
+    color: #e96b56;
+    transition: all .3s;
+}
+
+/* END TOP HEADER */
+/* ************************************* */
+/* BOTTOM HEADER */
+header .bottom-header {
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+header .bottom-header .logo {
+    width: 120px;
+}
+
+header .bottom-header .nav-links {
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+}
+
+header .bottom-header .nav-links .current a {
+    color: #e96b56;
+}
+
+header .bottom-header .nav-links li.dropdown ul {
+    background-color: red;
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 27px;
+    padding: 10px 0;
+    z-index: 99;
+    background: #fff;
+    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+    transition: 0.3s;
+}
+
+header .bottom-header .nav-links li.dropdown:hover ul {
+    display: block;
+}
+
+header .bottom-header .nav-links li.dropdown:hover ul li {
+    position: relative;
+    min-width: 200px;
+}
+
+header .bottom-header .nav-links li.dropdown:hover ul li {
+    padding: 10px 20px;
+    font-size: 14px;
+    text-transform: none;
+    color: #545454;
+}
+
+/* END TOP HEADER */
+/* main part */
+.container {
+    text-align: center;
+}
+
+#carouselExampleIndicators {
+    white-space: nowrap;
+}
+
+.carousel-inner img {
+    width: 1440px;
+    height: 600px;
+}
+
+.carousel-item h2 {
+    color: #2e2e2e;
+    margin-bottom: 30px;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.ccarousel-item span {
+    color: #e96b56;
+}
+
+.carousel-item p {
+    animation-delay: 0.4s;
+    margin: 0 auto 30px auto;
+    width: 50%;
+}
+
+.carousel-item .mainbtn {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 32px;
+    border-radius: 50px;
+    transition: 0.5s;
+    line-height: 1;
+    margin: 10px;
+    color: #fff;
+    animation-delay: 0.8s;
+    border: 2px solid #e96b56;
+    background: #e96b56;
+}
+
+.container .mainbtn:hover {
+    background: transparent;
+    color: #e96b56;
+    text-decoration: none;
+}
+
+.boxes i {
+    color: #e96b56;
+    width: 50px;
+    height: 20px;
+    position: absolute;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxes .container {
+    border: 1px;
+    margin: 30px;
+    width: 416px;
+    height: 248px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    ;
+}
+
+.boxes h4 {
+    margin-top: 90px;
+    width: 300px;
+}
+
+.boxes .container p {
+    color: #545454;
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+    position: relative;
+    text-align: center;
+    width: 300px;
+}
+
+.boxes :hover {
+    background-color: #e96b56;
+    color: #fff;
+}
+
+.part2 {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.part2 img {
+    width: 636px;
+    height: 477px;
+}
+
+.part2 .part2content {
+    font-weight: 600;
+    font-size: 26px;
+    color: #545454;
+    font-family: "Raleway", sans-serif;
+    margin-top: 0;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.part2 .part2content .container {
+    color: black;
+}
+
+.boxInput {
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxInput button {
+    border: 1px #e96b56;
+    padding: 20px;
+}
+
+.boxInput .container {
+    border: 1px;
+    margin: 10px;
+    width: 416px;
+    height: 337px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 0px;
+    display: block;
+}
+
+.boxInput .container p {}
+
+.boxAdd {
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxAdd button {
+    border: 1px #e96b56;
+    padding: 20px;
+}
+
+.boxAdd .container {
+    border: 1px;
+    margin: 10px;
+    width: 416px;
+    height: 337px;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.boxInput button {
+    background-color: #e96b56;
+    border-radius: 2px;
+}
+
+.boxAdd button {
+    background-color: #e96b56;
+    border-radius: 2px;
+}
+
+.boxAdd .container:hover {
+    background-color: #e96b56;
+}
+
+.boxInput .container:hover {
+    background-color: #e96b56;
+}
+
+.content {
+    margin-top: 50px;
+}
+
+.content h2 {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.content p {
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+
+.wrappper {
+    max-width: 1200px;
+}
+
+.container .wrappper .carousel {
+    white-space: nowrap;
+    font-size: 0px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.carousel img {
+    object-fit: cover;
+    margin-left: 50px;
+}
+
+.carousel .img-fluid {
+    width: 116;
+    height: 36px;
+}
+
+.boxContent {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 140px;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: #444444;
+}
+
+.boxContent h3,
+p {
+    color: #fff;
+}
+
+.boxContent button {
+    border-radius: 12px;
+    padding: 8px;
+    background-color: #e96b56;
+}
+
+.boxContent .form {
+    margin-top: 40px;
+}
+
+.boxContent .find {
+    border-radius: 10px;
+    padding: 12px;
+}
+
+.listBox {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: content-box;
+    border: 1px solid black;
+    position: absolute;
+  background-color: #212529;
+
+}
+.listBox h5,li  {
+    color: white;
+    width: 30%;
+}
+ .listBox .social-links {
+    display: inline-block;
+ }
+.listBox .container {
+    list-style: none;
+   margin-top: 40px;
+}
